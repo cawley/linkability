@@ -1,0 +1,10 @@
+public class Client{
+   public static void main(String[] args){
+     String t = "";
+      LinkableText story = new Story(t);
+      Story story1 = new Story(story.getText());
+      story1.printNext();
+     
+     }
+}
+ 
