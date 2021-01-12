@@ -1,0 +1,18 @@
+public class Story implements LinkableText{
+   private String text;
+   public LinkableText next;
+   public Story(String t){
+      text = t;
+      next = null;
+      
+   }
+   public void setNext(LinkableText next){
+      this.next = next;
+   }
+   public String getText(){
+      return text;
+   }
+   public void printNext(){
+      System.out.println(next);
+}
+}
